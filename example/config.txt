@@ -1,0 +1,2 @@
+Prefix plugins/FAR/example/
+Plugin FAR inputfile parameters.txt outputfile output.txt
