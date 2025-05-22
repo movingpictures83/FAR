@@ -18,6 +18,7 @@ class FARPlugin:
         pass
 
   def output(self, outputfile):
+    random.seed(1234)
     n = int(self.parameters["n"])
     infile = open(PyPluMA.prefix()+"/"+self.parameters["infile"], 'r')
     outfile = open(outputfile, 'w')
